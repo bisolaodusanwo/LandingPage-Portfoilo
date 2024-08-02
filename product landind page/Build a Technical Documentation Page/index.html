@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <header>Technical Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#installation">Installation</a></li>
+        <li><a class="nav-link" href="#usage">Usage</a></li>
+        <li><a class="nav-link" href="#examples">Examples</a></li>
+        <li><a class="nav-link" href="#resources">Resources</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-doc">
+      <!-- Introduction Section -->
+      <section id="introduction" class="main-section">
+        <header>Introduction</header>
+
+        <article>
+          <p>
+            JavaScript is a cross-platform, object-oriented scripting language.
+            It is a small and lightweight language. Inside a host environment
+            (for example, a web browser), JavaScript can be connected to the
+            objects of its environment to provide programmatic control over
+            them.
+          </p>
+
+          <p>
+            JavaScript contains a standard library of objects, such as Array,
+            Date, and Math, and a core set of language elements such as
+            operators, control structures, and statements. Core JavaScript can
+            be extended for a variety of purposes by supplementing it with
+            additional objects; for example:
+          </p>
+          <ul>
+            <li>
+              Client-side JavaScript extends the core language by supplying
+              objects to control a browser and its Document Object Model (DOM).
+              For example, client-side extensions allow an application to place
+              elements on an HTML form and respond to user events such as mouse
+              clicks, form input, and page navigation.
+            </li>
+            <li>
+              Server-side JavaScript extends the core language by supplying
+              objects relevant to running JavaScript on a server. For example,
+              server-side extensions allow an application to communicate with a
+              database, provide continuity of information from one invocation to
+              another of the application, or perform file manipulations on a
+              server.
+            </li>
+          </ul>
+        </article>
+        <article>
+          <p>This guide assumes you have the following basic background:</p>
+
+          <ul>
+            <li>
+              A general understanding of the Internet and the World Wide Web
+              (WWW).
+            </li>
+            <li>Good working knowledge of HyperText Markup Language (HTML).</li>
+            <li>
+              Some programming experience. If you are new to programming, try
+              one of the tutorials linked on the main page about JavaScript.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- Installation Section -->
+      <section id="installation" class="main-section">
+        <header>Installation</header>
+        <p>
+          If you want to install JavaScript packages or libraries, you can use
+          package managers like npm, yarn, or pip, depending on your project's
+          requirements and ecosystem.
+        </p>
+        <p>Here are some common installation commands:</p>
+        <code>npm install package-name</code>
+        <code>yarn add package-name</code>
+        <code>pip install package-name</code>
+        <code>brew install package-name</code>
+        <p>
+          Replace <code>package-name</code> with the name of the package you
+          want to install.
+        </p>
+        <ul>
+          <li>Step 1: Open your terminal or command prompt.</li>
+          <li>Step 2: Navigate to your project directory.</li>
+          <li>
+            Step 3: Run the appropriate installation command for your package
+            manager.
+          </li>
+          <li>Step 4: Wait for the installation to complete.</li>
+          <li>
+            Step 5: Once installed, you can start using the package in your
+            JavaScript code.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Usage Section -->
+      <section id="usage" class="main-section">
+        <header>Usage</header>
+        <p>
+          JavaScript is a versatile language that can be used for various
+          purposes, including web development, server-side scripting, and
+          building desktop applications.
+        </p>
+        <p>Here are some common usage scenarios and examples:</p>
+        <code>const x = 5;</code>
+        <code>function greet(name) { return "Hello, " + name + "!"; }</code>
+        <code>import module_name from 'module_path';</code>
+        <code>require('module_name');</code>
+        <code>let y = 10;</code>
+        <ul>
+          <li>Example 1: Declaring and initializing variables.</li>
+          <li>Example 2: Defining functions to perform specific tasks.</li>
+          <li>
+            Example 3: Importing modules or libraries for additional
+            functionality.
+          </li>
+          <li>
+            Example 4: Using built-in methods and functions to manipulate data.
+          </li>
+          <li>
+            Example 5: Implementing conditional statements and loops for control
+            flow.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Examples Section -->
+      <section id="examples" class="main-section">
+        <header>Examples</header>
+        <article>
+          <h3>Example 1: DOM Manipulation</h3>
+          <p>
+            JavaScript can be used to manipulate the Document Object Model
+            (DOM), allowing you to dynamically change the content and style of
+            web pages.
+          </p>
+          <code>// Change the text content of an element</code>
+          <code
+            >document.getElementById("example1").textContent = "Updated
+            text";</code
+          >
+          <div id="example1">Initial text</div>
+        </article>
+
+        <article>
+          <h3>Example 2: Event Handling</h3>
+          <p>
+            JavaScript enables you to respond to user interactions, such as
+            clicks and keyboard input, by attaching event listeners to HTML
+            elements.
+          </p>
+          <code>// Add a click event listener to a button</code>
+          <code
+            >document.getElementById("example2-btn").addEventListener("click",
+            function() {</code
+          >
+          <code> alert("Button clicked!");</code>
+          <code>});</code>
+          <button id="example2-btn">Click me</button>
+        </article>
+
+        <article>
+          <h3>Example 3: Data Validation</h3>
+          <p>
+            JavaScript can validate user input to ensure that it meets certain
+            criteria before processing it further.
+          </p>
+          <code>// Validate email input</code>
+          <code>const email = document.getElementById("email").value;</code>
+          <code
+            >if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))
+            {</code
+          >
+          <code> alert("Valid email address");</code>
+          <code>} else {</code>
+          <code> alert("Invalid email address");</code>
+          <code>}</code>
+          <input type="email" id="email" placeholder="Enter your email" />
+        </article>
+      </section>
+
+      <!-- Resources Section -->
+      <section id="resources" class="main-section">
+        <header>Resources</header>
+        <article>
+          <h3>MDN Web Docs</h3>
+          <p>
+            The MDN Web Docs is an invaluable resource for learning about web
+            development technologies, including JavaScript.
+          </p>
+          <p>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              target="_blank"
+              >Visit MDN Web Docs</a
+            >
+          </p>
+        </article>
+
+        <article>
+          <h3>W3Schools</h3>
+          <p>
+            W3Schools offers easy-to-understand tutorials and references on a
+            wide range of web development topics, including JavaScript.
+          </p>
+          <p>
+            <a href="https://www.w3schools.com/js/" target="_blank"
+              >Visit W3Schools JavaScript</a
+            >
+          </p>
+        </article>
+
+        <article>
+          <h3>JavaScript.info</h3>
+          <p>
+            JavaScript.info provides comprehensive tutorials and articles
+            covering all aspects of JavaScript programming.
+          </p>
+          <p>
+            <a href="https://javascript.info/" target="_blank"
+              >Visit JavaScript.info</a
+            >
+          </p>
+        </article>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

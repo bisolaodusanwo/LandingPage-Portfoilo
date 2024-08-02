@@ -1,0 +1,109 @@
+/* Global styles */
+#global-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+#navbar-style {
+    background-color: #1a1a1a; /* Dark gray background */
+    color: #fff; /* White text color */
+    padding: 10px;
+}
+
+#navbar-style header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#navbar-style ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar-style ul li {
+    margin-bottom: 10px;
+}
+
+#navbar-style ul li a {
+    color: #fff; /* White text color */
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#navbar-style ul li a:hover {
+    background-color: #333; /* Darker gray background on hover */
+}
+
+/* Main content styles */
+#main-doc-style {
+    padding: 20px;
+}
+
+#introduction-style,
+#installation-style,
+#usage-style,
+#examples-style,
+#resources-style {
+    margin-bottom: 40px;
+}
+
+#introduction-style header,
+#installation-style header,
+#usage-style header,
+#examples-style header,
+#resources-style header {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#introduction-style p,
+#installation-style p,
+#usage-style p,
+#examples-style p,
+#resources-style p {
+    margin-bottom: 10px;
+}
+
+#introduction-style code,
+#installation-style code,
+#usage-style code,
+#examples-style code,
+#resources-style code {
+    display: block;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#introduction-style ul,
+#installation-style ul,
+#usage-style ul,
+#examples-style ul,
+#resources-style ul {
+    margin-bottom: 10px;
+}
+
+#introduction-style ul li,
+#installation-style ul li,
+#usage-style ul li,
+#examples-style ul li,
+#resources-style ul li {
+    margin-bottom: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #1a1a1a; /* Dark gray background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+

@@ -1,0 +1,115 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: #141529;
+    color: #fff; /* Added text color for better readability */
+}
+
+/* Navbar styles */
+nav {
+    background-color: #333; /* Background color for the navbar */
+}
+
+#Navbarlist {
+    list-style: none;
+    padding: 25px;
+    margin: 0;
+    text-align: center; /* Center align navbar items */
+}
+
+#Navbarlist li {
+    display: inline-block;
+    margin: 0 10px; /* Add spacing between navbar items */
+}
+
+#Navbarlist li a {
+    color: #fff; /* Text color for navbar links */
+    text-decoration: none; /* Remove underline from navbar links */
+    padding: 10px; /* Add padding to navbar links */
+}
+
+#Navbarlist li a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+/* Welcome section styles */
+#welcomesection {
+    margin-right: 20px;
+    padding: 100px;
+    font-weight: bold;
+    font-size: large;
+    text-shadow: 1px 1px 1px #555; /* Adjusted text shadow */
+    text-align: center;
+}
+#project {
+    display: flex;
+    justify-content: center;
+}
+#Project_title {
+    background-color: #f0f0f0; /* Example background color */
+    padding: 20px; /* Example padding */
+    border-radius: 10px; /* Example border radius */
+	text-align: center;
+}
+
+#Project_title h2 {
+    color: #333; /* Example color for heading */
+	text-align: center;
+}
+
+#Project_title p {
+    color: #666; /* Example color for paragraph */
+	text-align: center;
+}
+
+#project-link,
+#project-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none; /* Remove underline from link */
+    color: #fff; /* Text color */
+    background-color: #007bff; /* Button background color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+	text-align: center;
+}
+
+#project-link:hover,
+.project-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+	text-align: center;
+}
+
+/* About section styles */
+
+#About {
+    display: flex;
+    justify-content: center;
+	display: block;
+}
+	
+#Aboutme {
+    padding: 30px;
+    text-align: center;
+	border-radius: 10px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+    box-shadow: inset 6px 1px 20px 2px rgb(255 255 255 / 10%);
+}
+
+/* Footer Section styles */
+#footericons {
+    padding: 20px;
+    margin: 0;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
